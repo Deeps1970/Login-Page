@@ -1,0 +1,67 @@
+body{
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 2px solid #2f2f2f;
+    font-family: serif;
+    font-size: large;
+}
+button {
+    font-family: serif;
+    font-size: large;
+    color: #2f2f2f;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid 2c2c2c;
+}
+button:hover {
+    background-color: rgb(178, 176, 172);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
